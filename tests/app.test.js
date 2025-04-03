@@ -14,4 +14,11 @@ describe('API Tests', () => {
     expect(res.statusCode).toEqual(200);
     expect(res.body.name).toEqual('Alice');
   });
+
+  it('should return a single user', async () => {
+    const res = await request(app).get('/users/100');
+    expect(res.statusCode).toEqual(200);
+    expect(res.body.name).toEqual('Marcos no está');
+  });
+
 });
