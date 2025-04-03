@@ -106,3 +106,4 @@ La aplicación se ejecuta por defecto en http://localhost:3000
 
 - Node.js (v18 recomendado)
 
+Integrantes: Hector Zapata - Sergio Morales - Marcos Argandoña - Diego González
