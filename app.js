@@ -19,3 +19,6 @@ app.get('/users/:id', (req, res) => {
 });
 
 module.exports = app;
+
+const PORT = 3000; 
+app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}`));
