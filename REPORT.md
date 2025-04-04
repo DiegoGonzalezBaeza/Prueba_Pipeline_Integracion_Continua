@@ -31,7 +31,7 @@ Este informe describe los pasos realizados para configurar y ejecutar el pipelin
    - Se configuró Jenkins para automatizar el proceso de construcción, prueba y despliegue.
    - Se usó opción "Pipeline script from SCM"
    - Se usó nombre del Branch: main
-   - Y para Script path: Dockerfile 
+   - Y para Script path: Jenkinsfile 
 
 
 ## Problemas Encontrados
