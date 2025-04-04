@@ -36,7 +36,17 @@ Este informe describe los pasos realizados para configurar y ejecutar el pipelin
 
 ## Problemas Encontrados
 
-- \[Sección opcional para problemas\]
+Nuevo test, para que nos de un error en el Pipeline
+
+```js
+  it('should return a single user', async () => {
+    const res = await request(app).get('/users/100');
+    expect(res.statusCode).toEqual(200);
+    expect(res.body.name).toEqual('Marcos no está');
+  });
+```
+
+- ![imgage](./img/img3_test_error.PNG)
 
 
 ## Resultados
