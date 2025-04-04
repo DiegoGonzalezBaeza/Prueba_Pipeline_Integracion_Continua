@@ -16,7 +16,11 @@ Este informe describe los pasos realizados para configurar y ejecutar el pipelin
 2. **Configuración básica de una API**  
      
    - Se verifica funcionamiento de la API
-   
+   ![img1](https://github.com/user-attachments/assets/ad30c4c6-c5e4-4c39-8b60-ae52b093c07f)
+
+
+   ![img2](https://github.com/user-attachments/assets/d18d0c10-38ce-49a8-bb69-565f3eb9059d)
+
 
    
 
