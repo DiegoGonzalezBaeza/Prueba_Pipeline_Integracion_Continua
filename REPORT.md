@@ -1,3 +1,40 @@
+# Informe de Ejecución del Pipeline
+
+## Resumen
+
+Este informe describe los pasos realizados para configurar y ejecutar el pipeline de CI/CD para el proyecto "TechFlow" API.
+
+## Pasos
+
+1. **Gestión del Repositorio Git**  
+     
+   - Se inicializó un repositorio local y se conectó a GitHub.
+   - Se hizo commit de una versión inicial de los archivos solicitados
+
+   
+
+2. **Configuración básica de una API**  
+     
+   - Se verifica funcionamiento de la API
+   
+
+   
+
+3. **Configuración de Jenkins**  
+     
+   - Se configuró Jenkins para automatizar el proceso de construcción, prueba y despliegue.
+   - Se usó opción "Pipeline script from SCM"
+   - Se usó nombre del Branch: main
+   - Y para Script path: Dockerfile 
+
+
+## Problemas Encontrados
+
+- \[Sección opcional para problemas\]
+
+
+## Resultados
+
 ## Ejecución del Pipeline en Jenkins
 
 ```text
